@@ -92,3 +92,6 @@ sw.*
 
 # Vercel
 .vercel
+
+# package-lock.json
+package-lock.json

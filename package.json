@@ -3,8 +3,8 @@
   "version": "0.0.2",
   "private": true,
   "scripts": {
-    "build": "nuxi generate",
-    "dev": "nuxi dev",
+    "build": "nuxt generate",
+    "dev": "nuxt dev",
     "start": "node .output/server/index.mjs"
   },
   "dependencies": {
