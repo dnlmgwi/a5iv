@@ -1,17 +1,9 @@
 {
-  "numbers": [
-    "+7 (111) 1234 56789",
-    "+1 (000) 9876 54321"
-  ],
-  "emails": [
-    "contact@A5iv.com",
-    "Username@website.com"
-  ],
-  "addresses": [
-    "B17 Princess Road, London, Greater London NW18JR, United Kingdom"
-  ],
+  "numbers": ["+265 997 055 066", "+1 (000) 9876 54321"],
+  "emails": ["hello@a5iv.com", "thembani.chokhotho@a5iv.com"],
+  "addresses": ["Lilongwe, Malawi"],
   "map": {
-    "lat": 34.0937459,
-    "lng": -118.3614978
+    "lat": -13.9626121,
+    "lng": 33.7741195
   }
 }

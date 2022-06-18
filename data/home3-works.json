@@ -3,24 +3,24 @@
     "id": 1,
     "type": "Interior",
     "title": "Exterior Designs",
-    "image": "/img/portfolio/full/01.jpg"
+    "image": "https://res.cloudinary.com/a5iv/image/upload/v1617735059/My%20Work/Contemporary/Petautchere/INT_View_4_Lounge_Dining_Entrance_m9ozyb.jpg"
   },
   {
     "id": 2,
     "type": "Interior",
     "title": "Maroon Beach Hotel",
-    "image": "/img/portfolio/full/02.jpg"
+    "image": "https://res.cloudinary.com/a5iv/image/upload/v1617735040/My%20Work/Contemporary/Petautchere/EXT_View_3_ddnn5f.jpg"
   },
   {
     "id": 3,
     "type": "Interior",
     "title": "Apartment Renovation",
-    "image": "/img/portfolio/full/03.jpg"
+    "image": "https://res.cloudinary.com/a5iv/image/upload/v1617735389/My%20Work/Traditional/Mwangonde/mwangonde_B_lygha7.jpg"
   },
   {
     "id": 4,
     "type": "Interior",
     "title": "Modern Minimalist House",
-    "image": "/img/portfolio/full/04.jpg"
+    "image": "https://res.cloudinary.com/a5iv/image/upload/v1617734884/My%20Work/Houses/mOMBERA%20HOUSE/INT_View_5_dqqunr.jpg"
   }
 ]

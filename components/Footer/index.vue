@@ -12,7 +12,10 @@
                 <span class="icon pe-7s-map-marker"></span>
                 <div class="cont">
                   <h6>Officeal Address</h6>
-                  <p>{{ appData.address.street }} . {{ appData.address.city }}, {{ appData.address.state }} , {{ appData.address.country }}</p>
+                  <p>
+                    {{ appData.address.street }} . {{ appData.address.city }},
+                    {{ appData.address.state }} , {{ appData.address.country }}
+                  </p>
                 </div>
               </li>
               <li>
@@ -34,7 +37,7 @@
         </div>
         <div class="col-lg-4">
           <div class="item md-mb50">
-            <div class="title">
+            <!-- <div class="title">
               <h5>Recent News</h5>
             </div>
             <ul>
@@ -53,13 +56,13 @@
                   <span class="subs pe-7s-paper-plane"></span>
                 </div>
               </li>
-            </ul>
+            </ul> -->
           </div>
         </div>
         <div class="col-lg-4">
           <div class="item">
             <div class="logo">
-              <img :src="appData.lightLogo" alt="">
+              <img :src="appData.lightLogo" alt="" />
             </div>
             <div class="social">
               <NuxtLink to="#0"><i class="fab fa-facebook-f"></i></NuxtLink>
@@ -68,7 +71,13 @@
               <NuxtLink to="#0"><i class="fab fa-youtube"></i></NuxtLink>
             </div>
             <div class="copy-right">
-              <p>{{ appData.footerText }} <a href="#0">{{ appData.themeAuthor }}</a>.</p>
+              <p>
+                {{ appData.footerText }}
+                <a href="#0">{{ appData.name }}</a> ALL RIGHTS RESERVED.
+                <a href="#0">{{ appData.privacy }} </a>Developed By
+                <a href="#0">{{ appData.themeAuthor }}</a
+                >.
+              </p>
             </div>
           </div>
         </div>
@@ -84,8 +93,8 @@ export default {
   name: "Footer",
   data() {
     return {
-      appData
-    }
-  }
-}
+      appData,
+    };
+  },
+};
 </script>

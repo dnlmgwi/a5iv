@@ -1,35 +1,26 @@
 [
   {
-    "background": "/img/slid/01.jpg",
+    "background": "https://res.cloudinary.com/a5iv/image/upload/v1617733250/My%20Work/Contemporary/khumbanyiwa%20house/View_3.2_Left_Side_mn2jom.jpg",
     "title": [
       "Right design and right ideas matter a lot of in interior design business.",
       "a style that makes a statement."
     ],
-    "tags": [
-      "Innovative",
-      "Architecture"
-    ]
+    "tags": ["ART"]
   },
   {
-    "background": "/img/slid/02.jpg",
+    "background": "https://res.cloudinary.com/a5iv/image/upload/v1617733240/My%20Work/Contemporary/khumbanyiwa%20house/INT_View_6_Stairs_qyugxx.jpg",
     "title": [
       "Right design and right ideas matter a lot of in interior design business.",
       "a style that makes a statement."
     ],
-    "tags": [
-      "Classic",
-      "and Modern"
-    ]
+    "tags": ["AUTHENTIC."]
   },
   {
-    "background": "/img/slid/03.jpg",
+    "background": "https://res.cloudinary.com/a5iv/image/upload/v1617735040/My%20Work/Contemporary/Petautchere/INT_View_1_Lounge_xaafrz.jpg",
     "title": [
       "Right design and right ideas matter a lot of in interior design business.",
       "a style that makes a statement."
     ],
-    "tags": [
-      "Elegant &",
-      "Unique Design"
-    ]
+    "tags": ["AGELESS AESTHETICS."]
   }
 ]

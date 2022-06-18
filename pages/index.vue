@@ -1,86 +1,41 @@
 <template>
-  <Home3Light></Home3Light>
+  <div>
+    <Navbar ref="navbar" theme="light" />
+    <Home3-Header />
+    <Home2LightServices />
+    <Home3-Works />
+    <!-- <Home3-About /> -->
+    <!-- <Home3-Video /> -->
+    <!-- <Home3-Team /> -->
+    <!-- <Home3-Testimonials /> -->
+    <!-- <Home3-News /> -->
+    <Footer />
+  </div>
 </template>
 
 <script>
-import Home3Light from "./home3-light/index.vue";
+import Home3LightServices from "../components/Home3-Light-Services/index.vue";
+import Home2LightServices from "../components/Home2-Light-Services/index.vue";
 export default {
-  name: "A5iv",
-  layout: "dark",
+  name: "Home3",
+  layout: "light",
   head() {
     return {
-      titleTemplate: "%s - A5iv",
+      titleTemplate: "%s - Home",
     };
   },
   mounted() {
     document.body.classList.add("index3");
     document.body.classList.remove("index2");
     document.body.classList.remove("index4");
+    var navbar = this.$refs.navbar.$el;
+    if (window.pageYOffset > 300) navbar.classList.add("nav-scroll");
+    else navbar.classList.remove("nav-scroll");
+    window.addEventListener("scroll", () => {
+      if (window.pageYOffset > 300) navbar.classList.add("nav-scroll");
+      else navbar.classList.remove("nav-scroll");
+    });
   },
-  components: { Home3Light },
+  components: { Home3LightServices, Home2LightServices },
 };
 </script>
-
-<style>
-.works-header {
-  min-height: 85vh;
-  position: relative;
-}
-
-.works-header:after {
-  content: "";
-  position: absolute;
-  top: 50px;
-  left: 50px;
-  right: 50px;
-  bottom: 50px;
-  background: #999;
-  opacity: 0.2;
-}
-
-.works-header:before {
-  background: #000 !important;
-}
-
-.masonery .container-fluid {
-  padding: 0 80px;
-}
-
-.masonery .item-img {
-  position: relative;
-  box-shadow: 0px 5px 10px rgba(50, 50, 50, 0.2);
-  background: #333;
-  padding: 15px;
-  border-radius: 5px;
-}
-
-.masonery .item-img img {
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.masonery .gallery .items {
-  padding: 0 40px;
-  margin-top: 80px;
-  text-align: center;
-}
-
-.masonery .gallery .items h6 {
-  margin: 25px 0 15px;
-  font-size: 17px;
-  font-weight: 400;
-  font-family: "Jost", sans-serif;
-  text-align: center;
-}
-
-.masonery .item-img .new {
-  padding: 10px 30px;
-  background: #75dab4;
-  position: absolute;
-  top: 0;
-  left: -60px;
-  width: 200px;
-  transform: rotate(-30deg);
-  font-size: 13px;
-}
-</style>
