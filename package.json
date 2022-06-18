@@ -3,9 +3,12 @@
   "version": "0.0.2",
   "private": true,
   "scripts": {
-    "build": "nuxt generate",
-    "dev": "nuxt dev",
-    "start": "node .output/server/index.mjs"
+  
+   "dev": "nuxi dev",
+
+   "build": "nuxi generate",
+
+   "start": "nuxi preview"
   },
   "dependencies": {
     "core-js": "^3.19.3",

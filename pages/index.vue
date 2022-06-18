@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <Home3Light></Home3Light>
-  </div>
+  <Home3Light></Home3Light>
 </template>
 
 <script>
