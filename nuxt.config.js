@@ -1,6 +1,6 @@
 import { defineNuxtConfig } from '@nuxt/bridge'
 
-export default {
+export default defineNuxtConfig({
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
@@ -64,6 +64,8 @@ export default {
     { src: "~/plugins/vueEllipseProgress.js", mode: "client" }
   ],
 
+  devServerHandlers: [],
+
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
@@ -86,4 +88,4 @@ export default {
       layouts: true
     }
   }
-}
+})
